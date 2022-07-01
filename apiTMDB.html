@@ -1,0 +1,39 @@
+<!-- https://www.themoviedb.org/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="apiTMDB.css">
+<link rel="shortcut icon" href="#">
+    <title>Api TMDB</title>
+    <meta name="theme-color" content="#032541">
+</head>
+<body>
+    <div class="container-fluid" id="navbar">
+        <div class="row align-items-center">
+            <div class="col-md-2 col-sm-4 col-xs-4 col-4 text-center divImagen">
+                    <img src="src/imagenes/TMDB.svg" alt="">
+            </div>
+            <div class="col-md-10 col-sm-8 col-xs-8 col-8 titulo text-center align-items-center p-2">
+                <span><strong>The Movie Database API <sub>3</sub> </strong></span>
+                <br>
+                <span>https://api.themoviedb.org/3</span>
+            </div>
+        </div>
+    </div>
+
+
+    <h3 class="titulo"><strong>Peliculas populares</strong></h3>
+    <main class="content col-12">
+        <div class="row contenedor justify-content-center" id="main">
+            
+        </div>
+    </main>
+
+    <script src="apiTMDB.js"></script>
+</body>
+</html>

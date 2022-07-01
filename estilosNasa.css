@@ -1,0 +1,18 @@
+
+.menu{
+    color: white
+}
+
+.card-text, .card-title{
+    display: -webkit-box;
+   -webkit-line-clamp:3;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+.card{
+    background-color: aliceblue;
+}
+
+img {
+    border-radius: 5px;
+}

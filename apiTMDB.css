@@ -1,0 +1,27 @@
+#navbar{
+    background-color:#032541 ;
+}
+
+.container-fluid{
+    color: white;
+}
+
+.item{
+    height: 300px;
+}
+.item img{
+    height: 80%;
+    object-fit: cover;
+}
+.content{
+    width: 100%;
+    padding: 20px;
+}
+.row{
+
+    border-radius: 20px;
+    padding: 10px;
+}
+.titulo{
+    text-align: center;
+}

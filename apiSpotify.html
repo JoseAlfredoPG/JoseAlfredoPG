@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="apiSpotify.css">
+    <link rel="shortcut icon" href="#">
+    <!-- <script src="https://open.spotify.com/embed-podcast/iframe-api/v1" async></script> -->
+   
+
+    <title>Api Spotify</title>
+    <meta name="theme-color" content="#2b570f">
+    
+</head>
+<body>
+    <h1>Busca el artista/cancion </h1>
+    <div class="container">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="input" placeholder="Search" aria-label="Search" id="inputSearch">
+          <!-- <button class="btn btn-outline-success" type="button" aria-label >Search</button> -->
+          <input class="btn btn-outline-success" type="button" value="Search" id="btnSearch">
+        </form>
+      </div>
+      <div class="contenedor" id="contenedor">
+        <h6>Resultados:</h6>
+        <div class="main" id="main"></div>
+      </div>
+    
+      <div class="reproductor" id ="reproductor">
+
+      </div>
+    <!-- <iframe src="https://open.spotify.com/user/best-of-the-best/playlist/1zI5mQ3BgVx2HS4UuyJMMH?si=yWdG55qFRrOCwYOiLyEhsw\" frameborder="0"></iframe> -->
+    <!-- <div id="embed-iframe"></div>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/78ZzF9pK3foniEnK64XzX5?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
+
+
+
+    <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5AMvBCtX2rspUdoeJ9IsPN?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
+    <script src="apiSpotify.js"></script>
+</body>
+</html>

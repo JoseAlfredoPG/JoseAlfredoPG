@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(src/imagenes/wallpaperbetter.com_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+  
+}
+/* Estilos menu nav bar **********************************************************************************************/
+/* .imagenMenu{
+    height: 40px;
+}
+.imagenMenu img{
+ height: 100%;
+ object-fit: contain;
+ padding: 4px;
+}
+.menu{
+    background-color: rgb(55, 74, 212);
+    height: auto;
+    position: fixed;
+    padding: 0;
+    
+}
+
+.menu ul{
+    padding: 0;
+    height: 100%;
+}
+.menu ul li{
+    list-style: none;
+    height:100%;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    color:white;
+}
+.menu ul li a:hover{
+    background-color: lightskyblue;
+    color: black;
+} */
+
+/* li{
+    list-style: none;
+    width: 100%;
+    background-color: purple;
+    height: auto;
+    
+} */
+/* a{  
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    height: 100%;
+  
+}
+a:hover{
+    background-color: azure;
+    width: 100%;
+} */
+
+/* .row > *{
+    padding-left: 0;
+    padding-right: 0;
+} */
+ul{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0;
+}
+
+
+.row > li{
+    padding-left: 0;
+    padding-right: 0;
+   outline-color: red;
+   outline: solid gray 1px;
+}
+
+.menu a{     
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    height: 100%;
+    color: white;
+    padding: 5px; 
+}
+.menu a:hover{
+    background-color: azure;
+    color: black;
+}
+
+.imagenMenu{
+    height: 50px;
+    outline: solid 1px gray;
+}
+.imagenMenu img{
+ height: 100%;
+ object-fit: contain;
+ padding: 4px;
+}
+
+
+/* Estilos del main *****************************************************************************************************/
+/* main{
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+}
+.contenido button{
+ border-radius: 5px;
+ padding: 10px;
+ font-weight: bold;
+ background-color: black;
+ color: white;
+ border: none;
+ box-shadow: 0 0 15px 1px;
+}
+
+.contenido button:hover{
+    background-color:transparent;
+    color: black;
+} */
+.boton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:column;
+    
+}
+.boton button{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 15px 5px;
+}
+/* Estilos del footer ***************************************************************************************************/
+.footer{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgb(55, 74, 212);
+    color: white;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color:white;
+}
+.iconfooter {
+    font-size: 20px;
+}
+.iconfooter:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+/* codigo de muestra */
+/* ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    background-color: red;
+    padding-left: 0;
+}
+
+li{
+    
+    list-style: none;
+    height: 100%;
+    background-color: yellow;
+}
+
+.nav a{ 
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    padding: 0 10px;
+    color: white;
+    font-weight: bold;
+}
+.nav a:hover{
+    background-color: lightskyblue;
+    color: black; 
+} */
